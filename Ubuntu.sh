@@ -3,8 +3,8 @@ cd ~
 sudo apt update && apt upgrade -y
 
 # Installing nala cuz it just looks so much better
-sudo apt install nala 
-sudo nala install tldr neofetch lolcat cowsays gh git vim bashtop curl bashtop
+sudo apt install nala -y
+sudo nala install tldr neofetch lolcat cowsays gh git vim bashtop curl bashtop -y
 tldr -u
 
 # Setting up git 
@@ -18,4 +18,4 @@ mkdir practice
 cd practice
 
 #end of script
-cowsays $USER ",Your system is now ready to rock!!" | lolcat -at
+cowsay $USER ",Your system is now ready to rock!!" | lolcat -at
